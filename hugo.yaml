@@ -2,6 +2,7 @@ baseURL: "https://147luca.github.io/print-guide/"
 languageCode: en-us
 title: "Print Guide -- 3D Printing Reviews & Guides"
 theme: PaperMod
+enableRobotsTXT: true
 
 params:
   defaultTheme: auto
