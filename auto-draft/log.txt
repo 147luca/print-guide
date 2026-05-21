@@ -1,0 +1,2 @@
+[2026-05-21 12:07] Drafting: Do You Need an Enclosure for 3D Printing? -> content/guides/do-you-need-an-enclosure.md
+[2026-05-21 12:09] DRAFTED (draft:true): content/guides/do-you-need-an-enclosure.md  (4420 chars). Review then publish.

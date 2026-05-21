@@ -40,3 +40,9 @@ abs-filament:
 nozzle-set:
   name: "nozzle set"
   url: "https://www.amazon.com/s?k=3d+printer+nozzle+set+brass"
+enclosure:
+  name: "3D printer enclosure"
+  url: "https://www.amazon.com/s?k=3d+printer+enclosure"
+printer-toolkit:
+  name: "3D printer tool kit"
+  url: "https://www.amazon.com/s?k=3d+printer+tool+kit"

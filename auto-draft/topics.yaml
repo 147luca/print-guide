@@ -1,0 +1,59 @@
+# Auto-draft topic queue for print-guide.
+# generate.py picks the FIRST topic whose target file doesn't exist yet, drafts
+# it (draft: true), and moves on. Add topics to the bottom; they get drafted in
+# order. Each: title, slug, section (guides|reviews), keyword, link_keys (product
+# keys from data/products.yaml to weave in as affiliate links where natural).
+
+- title: "Do You Need an Enclosure for 3D Printing?"
+  slug: do-you-need-an-enclosure
+  section: guides
+  keyword: "3d printer enclosure"
+  link_keys: [enclosure, abs-filament]
+
+- title: "Best PLA Filament Brands in 2026"
+  slug: best-pla-filament-brands
+  section: guides
+  keyword: "best PLA filament"
+  link_keys: [pla-filament]
+
+- title: "How to Fix Stringing in 3D Prints"
+  slug: how-to-fix-stringing
+  section: guides
+  keyword: "3d print stringing"
+  link_keys: [filament-dryer]
+
+- title: "ABS Warping: Why It Happens and How to Stop It"
+  slug: abs-warping-fixes
+  section: guides
+  keyword: "abs warping"
+  link_keys: [abs-filament, enclosure]
+
+- title: "TPU Printing Guide: Settings for Flexible Filament"
+  slug: tpu-printing-guide
+  section: guides
+  keyword: "tpu printing settings"
+  link_keys: [tpu-filament]
+
+- title: "3D Printer Maintenance Checklist (Monthly and Yearly)"
+  slug: 3d-printer-maintenance-checklist
+  section: guides
+  keyword: "3d printer maintenance"
+  link_keys: [nozzle-set, printer-toolkit]
+
+- title: "How to Get a Perfect First Layer Every Time"
+  slug: perfect-first-layer
+  section: guides
+  keyword: "3d printer first layer"
+  link_keys: []
+
+- title: "Best 3D Printer Tools and Accessories for Beginners"
+  slug: best-beginner-3d-printer-accessories
+  section: guides
+  keyword: "3d printer accessories"
+  link_keys: [printer-toolkit, nozzle-set, filament-dryer]
+
+- title: "Resin vs FDM: Which 3D Printer Should You Buy?"
+  slug: resin-vs-fdm
+  section: guides
+  keyword: "resin vs fdm"
+  link_keys: [bambu-a1, centauri-carbon]
