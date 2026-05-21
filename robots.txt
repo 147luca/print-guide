@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://147luca.github.io/print-guide/sitemap.xml
