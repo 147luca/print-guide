@@ -1,0 +1,8 @@
+
+# Hugo build output & locks
+public/
+.hugo_build.lock
+resources/_gen/
+
+# workflow file untracked until 'gh auth refresh -s workflow' (deploying via gh-pages branch for now)
+.github/workflows/

@@ -1,0 +1,17 @@
+{{- /* Affiliate link shortcode.  Usage: {{< amzn "key" >}} or {{< amzn "key" "Custom label" >}}
+       Looks up data/products.yaml; falls back to an Amazon search on the label.
+       Appends params.amazonTag (set after Associates approval) so links monetize
+       automatically. rel="nofollow sponsored" is required for affiliate links. */ -}}
+{{- $key := .Get 0 -}}
+{{- $data := index site.Data.products $key -}}
+{{- $label := .Get 1 | default (and $data $data.name) | default $key -}}
+{{- $base := "" -}}
+{{- with $data }}{{ $base = .url }}{{ end -}}
+{{- if not $base }}{{ $base = printf "https://www.amazon.com/s?%s" (querify "k" $label) }}{{ end -}}
+{{- $tag := site.Params.amazonTag -}}
+{{- $href := $base -}}
+{{- if $tag -}}
+  {{- $sep := cond (in $base "?") "&" "?" -}}
+  {{- $href = printf "%s%stag=%s" $base $sep $tag -}}
+{{- end -}}
+<a href="{{ $href }}" rel="nofollow sponsored noopener" target="_blank">{{ $label }}</a>

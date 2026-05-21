@@ -1,0 +1,53 @@
+baseURL: "https://147luca.github.io/print-guide/"
+languageCode: en-us
+title: "Print Guide -- 3D Printing Reviews & Guides"
+theme: PaperMod
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  description: "Honest 3D printing reviews, guides, and comparisons from someone who actually prints daily."
+  author: "Luca"
+
+  # Amazon Associates: paste your tracking tag here (e.g. "printguide-20") AFTER
+  # approval. Every {{< amzn >}} link across the site then monetizes automatically.
+  # Leave empty until approved — links still work, just without commission.
+  amazonTag: ""
+
+  homeInfoParams:
+    Title: "Print Guide"
+    Content: "Honest 3D printing reviews, filament guides, and setup tutorials. No fluff, no sponsored content. Just what actually works."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/147luca"
+
+menu:
+  main:
+    - identifier: reviews
+      name: Reviews
+      url: /reviews/
+      weight: 10
+    - identifier: guides
+      name: Guides
+      url: /guides/
+      weight: 20
+    - identifier: filaments
+      name: Filaments
+      url: /filaments/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,0 +1,42 @@
+# Central product registry for the {{< amzn "key" >}} affiliate shortcode.
+# Each entry: a stable key -> display name + Amazon URL. Using search URLs (not
+# ASINs) so links never go dead when a listing changes. The Associates tag is
+# applied automatically by the shortcode from params.amazonTag in hugo.yaml —
+# set that ONCE after Amazon Associates approval and every link monetizes.
+
+centauri-carbon:
+  name: "Elegoo Centauri Carbon"
+  url: "https://www.amazon.com/s?k=Elegoo+Centauri+Carbon+3D+Printer"
+bambu-a1:
+  name: "Bambu Lab A1"
+  url: "https://www.amazon.com/s?k=Bambu+Lab+A1+3D+Printer"
+pla-filament:
+  name: "PLA filament"
+  url: "https://www.amazon.com/s?k=PLA+filament+1.75mm"
+petg-filament:
+  name: "PETG filament"
+  url: "https://www.amazon.com/s?k=PETG+filament+1.75mm"
+tpu-filament:
+  name: "TPU filament"
+  url: "https://www.amazon.com/s?k=TPU+filament+1.75mm+flexible"
+pla-cf-filament:
+  name: "PLA-CF (carbon fiber) filament"
+  url: "https://www.amazon.com/s?k=PLA+CF+carbon+fiber+filament+1.75mm"
+hardened-nozzle:
+  name: "hardened steel nozzle"
+  url: "https://www.amazon.com/s?k=hardened+steel+nozzle+3d+printer"
+filament-dryer:
+  name: "filament dryer"
+  url: "https://www.amazon.com/s?k=filament+dryer+box"
+ender-3-v3:
+  name: "Creality Ender 3 V3"
+  url: "https://www.amazon.com/s?k=Creality+Ender+3+V3+3D+Printer"
+bambu-a1-mini:
+  name: "Bambu Lab A1 Mini"
+  url: "https://www.amazon.com/s?k=Bambu+Lab+A1+Mini+3D+Printer"
+abs-filament:
+  name: "ABS filament"
+  url: "https://www.amazon.com/s?k=ABS+filament+1.75mm"
+nozzle-set:
+  name: "nozzle set"
+  url: "https://www.amazon.com/s?k=3d+printer+nozzle+set+brass"
