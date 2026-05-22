@@ -4,7 +4,7 @@ date: 2026-05-21
 description: "Not every printer needs an enclosure. Here's when a 3d printer enclosure actually matters — and when you're better off skipping it."
 tags: ['3d printing', 'enclosure', 'printer']
 categories: ["guides"]
-draft: true   # auto-drafted — review, then set draft: false and ./deploy.sh
+draft: false
 ---
 
 Most 3D printing questions have a frustrating answer: it depends. Enclosures are no different. Whether you need one comes down to what material you're printing, where your printer lives, and how many failed prints you're willing to tolerate. Here's the honest breakdown.
